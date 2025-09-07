@@ -1,20 +1,25 @@
-A Machine Learning and Deep Learning based project that helps in precision farming by providing:
+🌾 Crop Recommendation System
 
-Crop recommendation
+A Machine Learning & Deep Learning based application for precision farming, providing:
 
-Fertilizer recommendation
+Crop Recommendation
 
-Plant disease prediction
+Fertilizer Recommendation
 
-Features 🚀
+Plant Disease Detection
 
-Crop Recommendation → Suggests the best crop to grow based on soil nutrients, location, humidity, and temperature.
+🚀 Features
 
-Fertilizer Suggestion → Recommends fertilizers by identifying nutrient deficiencies or excesses in the soil.
+Crop Recommendation
+Suggests the best crop to grow based on soil nutrients, location, humidity, and temperature.
 
-Disease Detection → Identifies plant diseases from leaf images and suggests remedies.
+Fertilizer Suggestion
+Recommends fertilizers by analyzing nutrient deficiencies or excesses in soil.
 
-Data Sources 📊
+Disease Detection
+Identifies plant diseases from leaf images and suggests effective remedies.
+
+📊 Data Sources
 
 Crop Recommendation Dataset
 
@@ -22,7 +27,7 @@ Fertilizer Dataset
 
 Plant Disease Dataset
 
-Tech Stack 🛠️
+🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript, Bootstrap
 
@@ -32,30 +37,33 @@ ML/DL Libraries: NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch
 
 Deployment: Heroku, Git
 
-How to Run Locally 💻
+💻 How to Run Locally
 
-Clone the repo:
+Clone the repository:
 
 git clone -b deploy https://github.com/Gladiator07/Harvestify.git
 
-Create a conda environment:
 
-conda create -n harvestify python=3.6.12 conda activate harvestify
+Create and activate conda environment:
+
+conda create -n harvestify python=3.6.12
+conda activate harvestify
+
 
 Install dependencies:
 
 pip install -r requirements.txt
 
+
 Run the app:
 
 python app.py
 
-Open the provided localhost URL in your browser.
 
-Demo 🌱
+📌 Future Enhancements
 
-Crop recommendation
+Integrate real-time weather API for dynamic crop recommendation
 
-Fertilizer suggestion
+Add multi-language support for farmers
 
-Disease detection (leaf image upload)
+Improve disease detection accuracy using advanced CNN models
